@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+
+import * as facemesh from '@tensorflow-models/facemesh';
 
 @Component({
   selector: 'app-root',

@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FaceApiPage } from './face-api/face-api.page';
+import { FacemeshPage } from './facemesh/facemesh.page';
+import { HomePage } from './home/home.page';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FaceApiPage,
+    FacemeshPage,
+    HomePage
   ],
   imports: [
     BrowserModule,
